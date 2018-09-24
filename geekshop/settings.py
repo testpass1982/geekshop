@@ -25,7 +25,7 @@ SECRET_KEY = 'y1k50^)4h6$!#jt#l()r#)$0o7sl_i@$^03zxopkktiad4$gd-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = 'authapp.ShopUser'
 
